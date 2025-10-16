@@ -1,0 +1,18 @@
+FASTAPI/
+└── basic/
+    ├── README.md
+    ├── requirements.txt
+    ├── .env.example
+    └── app/
+        ├── __init__.py
+        ├── config.py
+        ├── dependencies.py
+        ├── main.py
+        ├── schemas.py
+        └── routes/
+            ├── __init__.py
+            └── todos.py
+    └── tests/
+        ├── __init__.py
+        ├── test_health.py
+        └── test_todos.py
